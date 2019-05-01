@@ -11,13 +11,13 @@
 ### Install GNURadio blocks for IIO
 
 ```console
-# apt-get install libiio-dev ibad9361-dev gr-iio
+# apt-get install libiio-dev libad9361-dev gr-iio
 ```
 
 # ADRV9364
 
 1. Insert SD card
-2. Connect Power, USB. Ethernet 
+2. Connect Power, USB, Ethernet 
 3. Switch on power
 
 # GNURadio
