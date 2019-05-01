@@ -13,6 +13,13 @@
 ```console
 # apt-get install libiio-dev ibad9361-dev gr-iio
 ```
+
+# ADRV9364
+
+1. Insert SD card
+2. Connect Power, USB. Ethernet 
+3. Switch on power
+
 # GNURadio
 
 `(no module specified)` -> `Industrial IO` -> `PlutoSDR Source/Sink`
