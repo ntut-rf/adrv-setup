@@ -20,6 +20,13 @@
 2. Connect Power, USB, Ethernet 
 3. Switch on power
 
+### Login
+
+```
+$ ssh root@192.168.4.1
+```
+password: `analog`
+
 # GNURadio
 
 `(no module specified)` -> `Industrial IO` -> `PlutoSDR Source/Sink`
