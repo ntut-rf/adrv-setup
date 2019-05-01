@@ -16,3 +16,5 @@
 # GNURadio
 
 `(no module specified)` -> `Industrial IO` -> `PlutoSDR Source/Sink`
+
+Device URI: `192.168.4.1`
