@@ -2,6 +2,12 @@
 
 # ADRV9364
 
+### Build firmware
+
+See [Build_firmware.md](Build_firmware.md)
+
+### Hardware setup
+
 1. Insert SD card
 2. Connect Power, USB, Ethernet 
 3. Switch on power
