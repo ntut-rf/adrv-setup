@@ -39,6 +39,8 @@ The IP address for the host and the device need to be set. For example,
 (adrv9364) # reboot
 ```
 
+You can adjust the IP address configuration for different devices.
+
 ### Login via network
 
 Once the network is configured, you can login via ssh:
