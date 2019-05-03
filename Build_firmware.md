@@ -3,7 +3,7 @@
 1. Install requied system packages
 
   ```console
-  # apt-egt install libncurses-dev device-tree-compiler
+  # apt-get install libncurses-dev device-tree-compiler
   ```
   
 2. Install Xilinx Vivado HLx Editions
