@@ -60,3 +60,5 @@ password: `analog`
 * __Sample Rate(MSPS)__: Frequency at which the hardware will input/output samples
 
 For more information, see https://wiki.analog.com/resources/tools-software/linux-software/gnuradio
+
+Example RX flowgraph: [rx.grc](rx.grc)
