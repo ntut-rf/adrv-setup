@@ -39,6 +39,15 @@ The IP address for the host and the device need to be set. For example,
 (adrv9364) # reboot
 ```
 
+### Login via network
+
+Once the network is configured, you can login via ssh:
+
+```console
+$ ssh root@192.168.1.1
+```
+password: `analog`
+
 # GNURadio
 
 `(no module specified)` -> `Industrial IO` -> `PlutoSDR Source/Sink`
