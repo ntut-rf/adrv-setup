@@ -43,6 +43,6 @@ The IP address for the host and the device need to be set. For example,
 
 `(no module specified)` -> `Industrial IO` -> `PlutoSDR Source/Sink`
 
-* Device URI: `192.168.1.1`
-* RF Bandwidth(MHz): Configures TX/RX analog filters
-* Sample Rate(MSPS): Frequency at which the hardware will input/output samples
+* __Device URI__: `192.168.1.1`
+* __RF Bandwidth(MHz)__: Configures TX/RX analog filters
+* __Sample Rate(MSPS)__: Frequency at which the hardware will input/output samples
