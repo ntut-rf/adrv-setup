@@ -24,11 +24,20 @@
 
 1. Connect USB-UART such that the red LED is on.
 2. Login via serial terminal. For example,
-  ```
+  ```console
   $ picocom -b 115200 /dev/ttyUSB0
   ```
   account/password: `root`/`analog`
 
+### Network initial configuration
+
+The IP address for the host and the device need to be set. For example,
+
+```console
+(adrv9364) # fw_setenv ipaddr_eth 192.168.1.1
+(adrv9364) # fw_setenv ipaddr_host 192.168.1.100
+(adrv9364) # reboot
+```
 
 # GNURadio
 
