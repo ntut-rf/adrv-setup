@@ -4,7 +4,7 @@
 
 ### Build firmware
 
-See [Build_firmware.md](Build_firmware.md)
+Follow the instructions in [Build_firmware.md](Build_firmware.md)
 
 ### Hardware setup
 
