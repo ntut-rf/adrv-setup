@@ -46,4 +46,5 @@ The IP address for the host and the device need to be set. For example,
 * __Device URI__: `192.168.1.1`
 * __RF Bandwidth(MHz)__: Configures TX/RX analog filters
 * __Sample Rate(MSPS)__: Frequency at which the hardware will input/output samples
+
 For more information, see https://wiki.analog.com/resources/tools-software/linux-software/gnuradio
