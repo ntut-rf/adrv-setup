@@ -3,7 +3,7 @@
 1. Install requied system packages
 
   ```console
-  # apt-egt install libncurses-dev
+  # apt-egt install libncurses-dev device-tree-compiler
   ```
   
 2. Install Xilinx Vivado HLx Editions
@@ -22,6 +22,6 @@
   ```
 
 2. Build for ADRV9364
-  ```
+  ```console
   $ make TARGET=adrv9364
   ```
