@@ -20,12 +20,15 @@
 2. Connect Power, USB, Ethernet 
 3. Switch on power
 
-### Login
+### Login via serial port
 
-```
-$ ssh root@192.168.4.1
-```
-password: `analog`
+1. Connect USB-UART such that the red LED is on.
+2. Login via serial terminal. For example,
+  ```
+  $ picocom -b 115200 /dev/ttyUSB0
+  ```
+  account/password: `root`/`analog`
+
 
 # GNURadio
 
