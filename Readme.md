@@ -43,4 +43,4 @@ The IP address for the host and the device need to be set. For example,
 
 `(no module specified)` -> `Industrial IO` -> `PlutoSDR Source/Sink`
 
-Device URI: `192.168.4.1`
+Device URI: `192.168.1.1`
