@@ -15,7 +15,13 @@ See [Build_firmware.md](Build_firmware.md)
 ### Login via serial port
 
 1. Connect USB-UART such that the red LED is on.
-2. Login via serial terminal. For example,
+2. Login via serial terminal. For example:
+
+  install picocom
+  ```
+  # apt-get install picocom
+  ```
+  and
   ```console
   $ picocom -b 115200 /dev/ttyUSB0
   ```
