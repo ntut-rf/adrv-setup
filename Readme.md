@@ -61,6 +61,7 @@ password: `analog`
 
 `(no module specified)` -> `Industrial IO` -> `PlutoSDR Source/Sink`
 
+* __Buffer size__: Size of the internal buffer in samples. The IIO blocks will only input/output one buffer of samples at a time
 * __Device URI__: `192.168.1.1`
 * __RF Bandwidth(MHz)__: Configures TX/RX analog filters
 * __Sample Rate(MSPS)__: Frequency at which the hardware will input/output samples
