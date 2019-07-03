@@ -112,3 +112,11 @@ Follow steps descibed [here](http://gqrx.dk/download/install-ubuntu)
 ```console
 # sudo apt-get install gqrx-sdr
 ```
+
+### Usage
+
+Set device options:
+
+![gqrx-options](gqrx-options.png)
+
+![gqrx](gqrx.png)
