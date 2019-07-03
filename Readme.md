@@ -54,7 +54,7 @@ password: `analog`
 
 # Applications
 
-### retrogram-plutosdr
+### [retrogram-plutosdr](https://github.com/r4d10n/retrogram-plutosdr)
 
 Console based spectrum analyzer.
 
