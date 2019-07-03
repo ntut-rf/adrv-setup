@@ -99,11 +99,19 @@ Example RX flowgraph: [rx.grc](rx.grc)
 
 1. Disable GUI blocks and adjust the top block:
   * Set `Generate Options` to "to `No GUI`.
-  * Set `Run Options` to `Run to Completion`
+  * Set `Run Options` to `Run to Completion`.
+  
+  ![gnuradio-nogui](gnuradio-nogui.png)
   
 2. Generate the flowgraph and copy the generated python script to the device by `scp`.
+```console
+$ scp top_block.py root@192.168.1.1:/root/
+```
 
 3. Log in to the device and run the python script on the device.
+```console
+(adrv9364) # ./top_block.py
+```
 
 # GQRX
 
