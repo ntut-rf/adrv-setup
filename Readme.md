@@ -95,6 +95,16 @@ For more information, see https://wiki.analog.com/resources/tools-software/linux
 
 Example RX flowgraph: [rx.grc](rx.grc)
 
+### Running the flowgraph on the device
+
+1. Disable GUI blocks and adjust the top block:
+  * Set `Generate Options` to "to `No GUI`.
+  * Set `Run Options` to `Run to Completion`
+  
+2. Generate the flowgraph and copy the generated python script to the device by `scp`.
+
+3. Log in to the device and run the python script on the device.
+
 # GQRX
 
 Host-based spectrum analyzer.
