@@ -166,7 +166,7 @@ Set device options:
 1. Install requied system packages
 
   ```console
-  # apt-get install build-essential libncurses-dev device-tree-compiler libssl-dev
+  # apt-get install build-essential libncurses-dev device-tree-compiler libssl-dev dfu-util
   ```
   
 2. Install Xilinx Vivado HLx Editions (2018.3)
