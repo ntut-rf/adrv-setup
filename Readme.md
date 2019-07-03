@@ -193,7 +193,11 @@ Flash the firmware file using the `upload` target. This will copy the firmware f
 $ make upload
 ```
 
+The MSD interface requires a working Linux system with a properly set up MSD gadget. If the MSD interface is working, you can see the MSD device on the host computer file manager when you plug it in.
+
 ### DFU interface
+
+The DFU is a low-level interface tht can be used to recover the firmware if the Linux system fails to boot up.
 
 Reference: https://wiki.analog.com/university/tools/pluto/users/firmware
 
