@@ -181,6 +181,10 @@ Set device options:
   ```console
   $ make TARGET=pluto
   ```
+
+* Adding a file to the firmware root filesystem:
+Put the file in `targets/platform/rootfs_overlay` in the fimrware source and rebuild the firmware
+
   
 # Flash firmware
   
