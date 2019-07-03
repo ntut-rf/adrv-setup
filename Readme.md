@@ -46,6 +46,10 @@ Once the network is configured, you can login via ssh:
 ```console
 $ ssh root@192.168.1.1
 ```
+Or,
+```console
+$ ssh root@adrv9364.local
+```
 password: `analog`
 
 # GNURadio
