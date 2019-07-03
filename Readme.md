@@ -87,6 +87,10 @@ Example usage:
 * __RF Bandwidth(MHz)__: Configures TX/RX analog filters
 * __Sample Rate(MSPS)__: Frequency at which the hardware will input/output samples
 
+![gnuradio](gnuradio.png)
+
+![gnuradio-options](gnuradio-options.png)
+
 For more information, see https://wiki.analog.com/resources/tools-software/linux-software/gnuradio
 
 Example RX flowgraph: [rx.grc](rx.grc)
