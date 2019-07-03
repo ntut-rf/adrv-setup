@@ -6,6 +6,11 @@
 
 Build the firmware follwing the instructions in the [Build firmware](#build-firmware) section.
 
+Or, download prebuilt PlutoSDR firmware files from https://github.com/seanstone/adrv-fw/releases/tag/201907, and put the files under`plutosdr-fw/build/pluto/images`. You can then flash them via the `upload` target like:
+```console
+$ make upload
+```
+
 ### Hardware setup
 
 1. Insert SD card
