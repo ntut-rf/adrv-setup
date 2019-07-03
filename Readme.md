@@ -11,13 +11,13 @@ For PlutoSDR, you can download prebuilt firmware files from https://github.com/s
 $ make upload
 ```
 
-### Hardware setup *for ADRV9364*
+### Hardware setup *(for ADRV9364)*
 
 1. Insert SD card
 2. Connect Power, USB, Ethernet 
 3. Switch on power
 
-### Login via serial port *for ADRV9364*
+### Login via serial port *(for ADRV9364)*
 
 1. Connect USB-UART such that the red LED is on.
 2. Login via serial terminal. For example:
@@ -32,7 +32,7 @@ $ make upload
   ```
   account/password: `root`/`analog`
 
-### Network initial configuration *for ADRV9364*
+### Network initial configuration *(for ADRV9364)*
 
 The IP address for the host and the device need to be set. For example,
 
@@ -44,7 +44,7 @@ The IP address for the host and the device need to be set. For example,
 
 You can adjust the IP address configuration for different devices.
 
-### Login via network *for ADRV9364/PlutoSDR*
+### Login via network *(for ADRV9364/PlutoSDR)*
 
 Once the network is configured, you can login via ssh:
 
@@ -68,7 +68,7 @@ $ ssh root@pluto.local
 
 Password: `analog`
 
-# Applications *for ADRV9364/PlutoSDR*
+# Applications *(for ADRV9364/PlutoSDR)*
 
 ### [retrogram-plutosdr](https://github.com/r4d10n/retrogram-plutosdr)
 
