@@ -67,7 +67,7 @@ password: `analog`
 ```console
 # apt-get install libiio-dev libad9361-dev gr-iio
 ```
-### Usage
+### Stream IQ from host
 
 `(no module specified)` -> `Industrial IO` -> `PlutoSDR Source/Sink`
 
