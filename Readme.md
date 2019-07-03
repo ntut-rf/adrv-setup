@@ -1,6 +1,6 @@
 * Environment: Ubuntu 18.04
 
-# ADRV9364
+# ADRV9364/PlutoSDR
 
 ### Prepare SD card with firmware
 
@@ -182,7 +182,25 @@ Set device options:
   $ make TARGET=pluto
   ```
   
-6. For PlutoSDR, flash the firmware file using the `upload` target. This will copy the firmware file to the PlutoSDR MSD(Mass Strorage Device), and start flashing once the device is ejected:
+# Flash firmware
+  
+For PlutoSDR, there are two interfaces to flash the firmware.
+
+### MSD interface
+
+Flash the firmware file using the `upload` target. This will copy the firmware file to the PlutoSDR MSD(Mass Strorage Device), and start flashing once the device is ejected:
 ```console
 $ make upload
 ```
+
+### DFU interface
+
+Reference: https://wiki.analog.com/university/tools/pluto/users/firmware
+
+1. Enter the DFU mode by holding the hidden button using a pin while powering on (before plugging the USB cable).
+
+2. Flash the DFU firmware by the `dfu-all` target:
+```console
+$ make dfu-all
+```
+
