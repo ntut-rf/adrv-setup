@@ -83,7 +83,7 @@ Example RX flowgraph: [rx.grc](rx.grc)
 Follow steps descibed [here](http://gqrx.dk/download/install-ubuntu)
 
 1. Add PPAs
-```
+```console
 # add-apt-repository -y ppa:bladerf/bladerf
 # add-apt-repository -y ppa:myriadrf/drivers
 # add-apt-repository -y ppa:myriadrf/gnuradio
@@ -92,6 +92,6 @@ Follow steps descibed [here](http://gqrx.dk/download/install-ubuntu)
 ```
 
 2. Install GQRX
-```
-sudo apt-get install gqrx-sdr
+```console
+# sudo apt-get install gqrx-sdr
 ```
