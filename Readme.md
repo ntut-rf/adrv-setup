@@ -2,9 +2,9 @@
 
 # ADRV9364
 
-### Build firmware
+### Prepare SD card with firmware
 
-Follow the instructions in [Build_firmware.md](Build_firmware.md)
+Build the firmware follwing the instructions in the [Build firmware](#build-firmware) section.
 
 ### Hardware setup
 
@@ -144,3 +144,35 @@ Set device options:
 ![gqrx-options](gqrx-options.png)
 
 ![gqrx](gqrx.png)
+
+# Build firmware
+
+1. Install requied system packages
+
+  ```console
+  # apt-get install build-essential libncurses-dev device-tree-compiler libssl-dev
+  ```
+  
+2. Install Xilinx Vivado HLx Editions
+
+  * Download from https://www.xilinx.com/support/download.html
+  * Install to `/opt/Xilinx/`
+
+3. Init repository
+  ```console
+  $ git clone https://github.com/seanstone/adrv-fw
+  $ cd adrv-fw
+  $ git submodule init
+  $ git submodule update
+  ```
+
+4. Apply necessary patches
+  ```console
+  $ make patch
+  $ make patch-hdl
+  ```
+
+5. Build for ADRV9364
+  ```console
+  $ make TARGET=adrv9364
+  ```
