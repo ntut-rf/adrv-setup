@@ -182,7 +182,7 @@ Set device options:
   $ make TARGET=pluto
   ```
   
-6. For PlutoSDR, flash the firmware file using the `upload` target:
+6. For PlutoSDR, flash the firmware file using the `upload` target. This will copy the firmware file to the PlutoSDR MSD(Mass Strorage Device), and start flashing once the device is ejected:
 ```console
 $ make upload
 ```
