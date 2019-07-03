@@ -172,7 +172,11 @@ Set device options:
   $ make patch-hdl
   ```
 
-5. Build for ADRV9364
+5. Choose target to build:
+* Build for ADRV9364
   ```console
   $ make TARGET=adrv9364
   ```
+ * Build for PlutoSDR
+  ```console
+  $ make TARGET=pluto
