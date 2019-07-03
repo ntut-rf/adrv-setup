@@ -153,7 +153,7 @@ Set device options:
   # apt-get install build-essential libncurses-dev device-tree-compiler libssl-dev
   ```
   
-2. Install Xilinx Vivado HLx Editions
+2. Install Xilinx Vivado HLx Editions (2018.3)
 
   * Download from https://www.xilinx.com/support/download.html
   * Install to `/opt/Xilinx/`
