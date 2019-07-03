@@ -75,3 +75,23 @@ password: `analog`
 For more information, see https://wiki.analog.com/resources/tools-software/linux-software/gnuradio
 
 Example RX flowgraph: [rx.grc](rx.grc)
+
+# GQRX
+
+### Installation
+
+Follow steps descibed [here](http://gqrx.dk/download/install-ubuntu)
+
+1. Add PPAs
+```
+# add-apt-repository -y ppa:bladerf/bladerf
+# add-apt-repository -y ppa:myriadrf/drivers
+# add-apt-repository -y ppa:myriadrf/gnuradio
+# add-apt-repository -y ppa:gqrx/gqrx-sdr
+# apt-get update
+```
+
+2. Install GQRX
+```
+sudo apt-get install gqrx-sdr
+```
