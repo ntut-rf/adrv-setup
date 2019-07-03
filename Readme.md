@@ -180,3 +180,9 @@ Set device options:
  * Build for PlutoSDR
   ```console
   $ make TARGET=pluto
+  ```
+  
+6. For PlutoSDR, flash the firmware file using the `upload` target:
+```console
+$ make upload
+```
