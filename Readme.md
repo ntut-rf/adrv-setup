@@ -93,6 +93,8 @@ Example RX flowgraph: [rx.grc](rx.grc)
 
 # GQRX
 
+Host-based spectrum analyzer.
+
 ### Installation
 
 Follow steps descibed [here](http://gqrx.dk/download/install-ubuntu)
