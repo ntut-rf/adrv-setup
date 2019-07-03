@@ -59,7 +59,7 @@ password: `analog`
 Console based spectrum analyzer.
 
 Example usage:
-```
+```console
 (adrv9364) # retrogram-plutosdr --rate 61e6 --bw 56e6 --gain 73 --freq 935e6 --step 5e6
 ```
 
