@@ -113,6 +113,8 @@ $ scp top_block.py root@192.168.1.1:/root/
 (adrv9364) # ./top_block.py
 ```
 
+See [pluto_tx_onboard.grc](pluto_tx_onboard.grc) for example.
+
 # GQRX
 
 Host-based spectrum analyzer.
