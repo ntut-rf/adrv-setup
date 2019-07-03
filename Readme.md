@@ -52,6 +52,17 @@ $ ssh root@adrv9364.local
 ```
 password: `analog`
 
+# Applications
+
+### retrogram-plutosdr
+
+Console based spectrum analyzer.
+
+Example usage:
+```
+(adrv9364) # retrogram-plutosdr --rate 61e6 --bw 56e6 --gain 73 --freq 935e6 --step 5e6
+```
+
 # GNURadio
 
 ### Installation
