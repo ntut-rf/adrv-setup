@@ -174,7 +174,7 @@ Set device options:
   * Download from https://www.xilinx.com/support/download.html
   * Install to `/opt/Xilinx/`
 
-3. Init repository
+3. Init repository from https://github.com/seanstone/adrv-fw
   ```console
   $ git clone https://github.com/seanstone/adrv-fw
   $ cd adrv-fw
